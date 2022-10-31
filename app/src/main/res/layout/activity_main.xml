@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Android Version"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:background="@null"
+        android:importantForAutofill="no" />
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <EditText
+        android:id="@+id/namev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:hint="Enter Android Code Name"
+        android:background="@null"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/add"
+        android:text="@string/add"
+        android:textSize="20sp"
+        android:onClick="click"
+        android:backgroundTint="#CFCFCF"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:id="@+id/table">
+    <TableRow
+        android:layout_marginBottom="11dp">
+
+        <TextView
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:background="#F42485"
+            android:layout_marginRight="2dp"
+            android:text="Version" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:background="#F42485"
+            android:text="Code name"/>
+    </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="11dp">
+
+            <TextView
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:background="#F42485"
+                android:text="Android 9.0" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:background="#F42485"
+                android:text="Pie"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="11dp">
+
+            <TextView
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:background="#F42485"
+                android:text="Android 8.0" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:background="#F42485"
+                android:text="Oreo"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
