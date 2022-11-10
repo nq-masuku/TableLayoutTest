@@ -14,9 +14,9 @@
         </span>
     </tr>
     <tr>
-        <td><img src="screenshots/snap1.png" width="150" /></td>
-        <td><img src="screenshots/snap2.png" width="150" /></td>
-        <td><img src="screenshots/snap3.png" width="150" /></td>
+        <td><img src="screenshots/snap1.PNG" width="150" /></td>
+        <td><img src="screenshots/snap2.PNG" width="150" /></td>
+        <td><img src="screenshots/snap3.PNG" width="150" /></td>
     </tr>
 </table>
 
