@@ -20,3 +20,14 @@
     </tr>
 </table>
 
+<table border="0">
+    <tr>
+        <span>
+        Problem 2
+        </span>
+    </tr>
+    <tr>
+       <td><img src="screenshots/snap4.PNG" width="150" /></td>
+    </tr>
+</table>
+</p>
